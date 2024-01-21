@@ -1,7 +1,7 @@
 <%= form_with model: [ @article, @article.comments.build ] do |form| %>
 
   <div>
-    <%= form.lable :status %><br>
+    <%= form.label :status %><br>
     <%= form.select :status, Visible::VALID_STATUSES, selected: 'public' %>
   </div>
 

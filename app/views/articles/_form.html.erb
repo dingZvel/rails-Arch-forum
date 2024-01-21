@@ -1,6 +1,6 @@
 <%= form_with model: article do |form| %>
   <div>
-    <%= form.lable :status %><br>
+    <%= form.label :status %><br>
     <%= form.select :status, Visible::VALID_STATUSES, selected: article.status || 'public' %>
   </div>
 
