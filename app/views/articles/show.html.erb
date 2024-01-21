@@ -11,7 +11,7 @@
     } %></li>
 </ul>
 
-<h2>Comments</h2>
+<h2><%= @article.comments.count %> Comments below:</h2>
 <%= render @article.comments %>
 
 <h2>Add a comment:</h2>
