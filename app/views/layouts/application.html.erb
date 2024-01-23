@@ -9,7 +9,7 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
     <%= vite_client_tag %>
-    <%= vite_javascript_tag 'application' %>
+    <%= vite_javascript_tag 'index.jsx' %>
     <!--
       If using a TypeScript entrypoint file:
         vite_typescript_tag 'application'
@@ -27,6 +27,8 @@
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
     
+    <div id="navigation"></div>
+
     <%= link_to "ArchForum", root_path %>
 
     <% if user_signed_in? %>

@@ -70,3 +70,5 @@ end
 gem "devise", "~> 4.9"
 
 gem "vite_rails", "~> 3.0"
+
+gem "cssbundling-rails", "~> 1.4"
