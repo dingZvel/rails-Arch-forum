@@ -1,6 +1,9 @@
 # ArchForum
 An premature assignment project for CVWO. Unfortunately I tried to integrate React & Typescript with Vite but somehow it doesn't work and I can't find relate tutorials and resolve it in time.
 
+# Name
+Ding Zhe
+
 ## To Run
 Enter the folder and run 
 ``` bash
